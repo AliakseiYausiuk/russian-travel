@@ -1,8 +1,7 @@
 .place {
   width: 100%;
-  height: 640px;
   display: grid;
-  grid-template-columns: repeat(2, 440px 456px);
+  grid-template-columns: repeat(2, minmax(min-content, 460px));
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   grid-template-areas:
   "title website"

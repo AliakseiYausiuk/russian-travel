@@ -1,5 +1,5 @@
 .place__image {
   grid-area: foto;
-  width: 440px;
+  width: 96%;
   height: 440px;
 }
