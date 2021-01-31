@@ -1,6 +1,36 @@
 .cover {
-  width: 100%;
-  height: 640px;
-  margin-top: 92px;
-  position: relative;
+  width: calc(100% - 96px);
+  height: 740px;
+  background-image: url('../../images/__background.png');
+  background-size: cover;
+  margin: 12px auto 0 auto;
+  opacity: .7;
+}
+
+.cover:hover {
+  opacity: .2;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: 640px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    height: 480px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 470px) {
+  .cover {
+    width: 100%;
+    height: 200px;
+    margin: 16px 0 0 0;
+  }
 }

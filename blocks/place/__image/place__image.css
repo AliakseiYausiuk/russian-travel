@@ -1,5 +1,10 @@
 .place__image {
   grid-area: foto;
-  width: 96%;
-  height: 440px;
+  width: 100%;
+}
+
+@media (min-width: 320px)  and (max-width: 768px) {
+  .place__image {
+    margin-top: 32px;
+  }
 }

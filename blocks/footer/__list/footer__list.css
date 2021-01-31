@@ -4,3 +4,11 @@
   padding: 0;
   display: flex;
 }
+
+@media (min-width: 320px) and (max-width: 470px) {
+  .footer__list {
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

@@ -1,1 +1,8 @@
-@import url('../fonts/Inter Web/inter');
+@font-face {
+  src:
+  url('../fonts/Inter-Black.woff2') format('woff2'),
+  url('../fonts/Inter-Black.woff') format('woff'),
+  url('../fonts/Inter-Black.ttf') format('truetype');
+  font-family: 'Inter';
+  font-weight: normal;
+}

@@ -1,13 +1,48 @@
 .cover__title {
-  width: 56%;
+  width: calc(100% - 624px);
   height: 152px;
-  position: absolute;
-  left: 232px;
-  bottom: 293px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 245px;
   text-align: center;
+  z-index: 1;
+}
+
+
+/* Подскажите как реализовать затемнение с текстом? */
+.cover__title::before {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .cover__title {
+    width: 560px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover__title {
+    width: 560px;
+    padding-top: 195px;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 768px) {
+  .cover__title {
+    width: 560px;
+    padding-top: 115px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 470px) {
+  .cover__title {
+    width: 288px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 33px;
+  }
 }

@@ -6,6 +6,43 @@
   grid-template-areas:
   "title website"
   "foto text";
-  gap: 48px 32px;
-  margin-top: 80px;
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+/* подскажите почему не работает ?? */
+/* .place:nth-last-child() {
+  margin: 0;
+} */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    grid-template-columns: repeat(2, minmax(min-content, 440px));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 28px;
+  }
+}
+
+
+@media (min-width: 470px) and (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(2, minmax(min-content, 340px));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 40px;
+
+  }
+}
+
+@media (min-width: 320px)  and (max-width: 470px) {
+  .place {
+    grid-template-columns: repeat(1, minmax(min-content, 320px));
+    grid-template-areas:
+      "title"
+      "website"
+      "foto"
+      "text";
+      gap: 0;
+      margin-bottom: 50px;
+  }
 }

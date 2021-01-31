@@ -1,6 +1,6 @@
 .lead__title {
+  width: calc(100% - 264px);
   height: 200px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -9,3 +9,26 @@
   padding: 0;
   margin: 0;
 }
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .lead__title {
+    width: 720px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lead__title {
+    width: 720px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .lead__title {
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+

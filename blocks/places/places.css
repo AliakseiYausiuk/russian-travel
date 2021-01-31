@@ -1,5 +1,30 @@
 .places {
-  width: 91%;
-  height: 3292px;
+  width: calc(100% - 296px);
   margin: 92px auto 0 auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .places {
+    width: 928px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .places {
+    width: 720px;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 768px) {
+  .places {
+    width: 720px;
+    margin: 88px auto 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 470px) {
+  .places {
+    width: 100%;
+    margin: 64px auto 0 auto;
+  }
 }
