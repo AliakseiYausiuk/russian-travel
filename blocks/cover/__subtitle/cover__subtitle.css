@@ -1,9 +1,8 @@
 .cover__subtitle {
   width: calc(100% - 824px);
-  height: 66px;
   margin: 32px auto 0 auto;
   text-align: center;
-  font-style: normal;
+  font-family: 'Inter-Regular', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;

@@ -1,7 +1,7 @@
 .place__title {
   width: 100%;
   grid-area: title;
-  font-style: normal;
+  font-family: 'Inter-Black', sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;

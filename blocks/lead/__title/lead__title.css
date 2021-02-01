@@ -1,7 +1,6 @@
 .lead__title {
   width: calc(100% - 264px);
-  height: 200px;
-  font-style: normal;
+  font-family: 'Inter-Black', sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
