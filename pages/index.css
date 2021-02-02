@@ -48,6 +48,7 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__list-items/footer__list-items.css');
 
 
 .page {
@@ -56,6 +57,7 @@
   max-width: 1280px;
   background-color: #2A2C2F;
   color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
 }
 
 

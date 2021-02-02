@@ -2,7 +2,6 @@
   width: calc(100% - 824px);
   margin: 32px auto 0 auto;
   text-align: center;
-  font-family: 'Inter-Regular', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -31,7 +30,6 @@
 @media (min-width: 320px) and (max-width: 470px) {
   .cover__subtitle {
     width: 288px;
-    height: 48px;
     font-size: 14px;
     line-height: 16px;
     margin: 16px auto 0 auto;

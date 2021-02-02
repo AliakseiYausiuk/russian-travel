@@ -1,6 +1,5 @@
 .lead__title {
   width: calc(100% - 264px);
-  font-family: 'Inter-Black', sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -24,7 +23,6 @@
 @media (min-width: 320px) and (max-width: 768px) {
   .lead__title {
     width: 288px;
-    height: 88px;
     font-size: 40px;
     line-height: 44px;
   }

@@ -1,7 +1,6 @@
 .place__text {
   width: 100%;
   grid-area: text;
-  font-family: 'Inter-Regular', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
