@@ -6,6 +6,10 @@
   line-height: 18px;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
 @media (max-width: 1024px) {
   .footer__link {
     font-size: 14px;
@@ -13,7 +17,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 470px) {
+@media (max-width: 470px) {
   .footer__link {
     margin: 0;
   }

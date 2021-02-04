@@ -15,9 +15,15 @@
   }
 }
 
-@media (min-width: 320px)  and (max-width: 768px) {
+@media (max-width: 768px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media (max-width: 470px) {
+  .place__title {
+    text-align: center;
   }
 }

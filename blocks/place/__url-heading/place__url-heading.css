@@ -7,6 +7,7 @@
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -15,9 +16,16 @@
   }
 }
 
-@media (min-width: 320px)  and (max-width: 768px) {
+@media (max-width: 768px) {
   .place__url-heading {
     line-height: 12px;
     margin-top: 32px;
   }
 }
+
+@media (max-width: 470px) {
+  .place__url-heading {
+    text-align: center;
+  }
+}
+

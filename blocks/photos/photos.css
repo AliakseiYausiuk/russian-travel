@@ -14,17 +14,17 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .photos {
     width: calc(100% - 48px);
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
   }
 }
 
 @media (max-width: 320px) {
   .photos {
     width: calc(100% - 32px);
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     gap: 12px;
     margin-top: 64px;
   }

@@ -6,3 +6,13 @@
   line-height: 22px;
   text-decoration-line: underline;
 }
+
+.place__link:hover {
+  opacity: .8;
+}
+
+@media (max-width: 470px) {
+  .place__link {
+    text-align: center;
+  }
+}
