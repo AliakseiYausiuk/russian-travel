@@ -9,7 +9,6 @@
   background-color: rgba(0, 0, 0, .3);
 }
 
-/* Не могу понять почему не раюотает ? */
 .cover__link:hover {
   content: '';
   background-color:rgba(42, 44, 47, .8);
