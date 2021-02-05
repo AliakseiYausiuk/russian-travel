@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .intro {
     max-width: calc(100% - 48px);
     margin: 92px auto 0 auto;

@@ -9,12 +9,6 @@
   z-index: 2;
 }
 
-
-/* Подскажите как реализовать затемнение с текстом? */
-.cover__title::before {
-
-}
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .cover__title {
     max-width: 560px;
@@ -28,18 +22,21 @@
   }
 }
 
-@media (min-width: 470px) and (max-width: 768px) {
+@media (min-width: 521px) and (max-width: 767px) {
   .cover__title {
     max-width: 560px;
     padding-top: 115px;
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     padding-top: 33px;
+
   }
 }
+
+

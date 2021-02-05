@@ -13,6 +13,6 @@
 
 @media (max-width: 470px) {
   .place__link {
-    text-align: center;
+    margin-left: 16px;
   }
 }

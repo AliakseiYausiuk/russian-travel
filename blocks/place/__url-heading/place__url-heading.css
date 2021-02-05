@@ -25,7 +25,6 @@
 
 @media (max-width: 470px) {
   .place__url-heading {
-    text-align: center;
+    margin-left: 16px;
   }
 }
-
