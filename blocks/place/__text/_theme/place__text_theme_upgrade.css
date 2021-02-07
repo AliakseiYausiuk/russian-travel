@@ -1,9 +1,0 @@
-.place__text_theme_upgrade {
-  margin-top: 26px;
-}
-
-@media (max-width: 767px) {
-  .place__text_theme_upgrade {
-    margin-top: 25px;
-  }
-}

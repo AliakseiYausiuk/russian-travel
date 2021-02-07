@@ -5,6 +5,8 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+  color: #fff;
+  text-decoration: none;
 
   background-color: rgba(42, 44, 47, .3);
 }

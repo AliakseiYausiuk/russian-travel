@@ -13,6 +13,6 @@
 
 @media (max-width: 470px) {
   .place__link {
-    margin-left: 16px;
+    margin: 0 0 32px 16px;
   }
 }

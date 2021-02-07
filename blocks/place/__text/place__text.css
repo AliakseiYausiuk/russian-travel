@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0;
 }
+.place__text:first-child {
+  margin-bottom: 26px;
+}
 
 @media (max-width: 1023px) {
   .place__text {
@@ -16,8 +19,8 @@
 
 
 @media (max-width: 767px) {
-  .place__text:last-child {
-    margin-top: 25px;
+  .place__text:first-child {
+    margin-bottom: 25px;
   }
 }
 
