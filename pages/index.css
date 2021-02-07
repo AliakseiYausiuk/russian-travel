@@ -32,6 +32,8 @@
 /* photos */
 @import url('../blocks/photos/photos.css');
 @import url('../blocks/photos/__item/photos__item.css');
+@import url('../blocks/photos/__list/photos__list.css');
+
 
 /* places */
 @import url('../blocks/places/places.css');
