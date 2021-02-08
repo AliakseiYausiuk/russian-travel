@@ -1,5 +1,4 @@
 .place__url-heading {
-  width: 100%;
   margin: 0 0 12px 0;
   padding: 0;
   color: #AAAAAA;
@@ -26,6 +25,5 @@
 @media (max-width: 470px) {
   .place__url-heading {
     margin-left: 16px;
-    width: 0;
   }
 }

@@ -1,10 +1,7 @@
 .cover__link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+  max-width: 100%;
+  min-height: 740px;
+  display: block;
   color: #fff;
   text-decoration: none;
 
@@ -13,4 +10,23 @@
 
 .cover__link:hover {
   background-color:rgba(42, 44, 47, .8);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+
+@media (min-width: 470px) and (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 470px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }
